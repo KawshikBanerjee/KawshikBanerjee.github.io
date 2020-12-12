@@ -1,0 +1,131 @@
+@media only screen and (max-width: 600px) {
+    .home-page .home-intro .home-title h1 {
+        font-size: 2rem;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .home-page .home-intro .banner-image > img {
+        padding: 6rem 0; 
+        width: 50%;
+        margin: 0 4rem;
+    }
+
+    .home-page .home-intro .intro-text {
+        font-family: 'EB Garamond', serif;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
+    .section-divider h3 {
+        display: block;
+        font-family: 'Lato', serif;
+        /* font-family: 'EB Garamond', serif; */
+        font-size: 1.3rem;
+        /* text-transform: uppercase; */
+        /* letter-spacing: 1px; */
+        color: darkslategray;
+    }
+
+    .section-divider h3::after {
+        content: " ";
+        height: 2px;
+        width: 5vw;
+        background: darkslategrey;
+        display: inline-block;
+        margin-left: 4%;
+        transform: translateY(-10px);
+    }
+    
+    .section-divider h3::before {
+        content: " ";
+        height: 2px;
+        width: 5vw;
+        background: darkslategrey;
+        display: inline-block;
+        margin-right: 4%;
+        transform: translateY(-10px);
+    }
+    
+    .baksho {
+        background: #ffffff10;
+        box-shadow: 0px 5px 15px rgba(57, 56, 61, 0.205);
+        /* margin: 1rem 0rem; */
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        /* width: 70%; */
+    }
+    
+    .baksho a {
+        font-family: 'EB Garamond', serif;
+        font-size: 1.7rem;
+        color: #363636;
+    }
+    
+    .baksho img {
+        width: 50%;
+    }
+
+    .baksho p {
+        font-size: 1.3rem;
+    }
+    
+    .baksho hr {
+        width: 70%;
+        border-color: darkcyan;
+    }
+
+    .institute text {
+        font-size: 1.3rem;
+    }
+
+    .contact-me {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .footer-area {
+        background: #363636;
+        padding: 2rem 1rem;
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        color: lightgray;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 1224px) {
+    .navbar-brand {
+        padding: 0 2rem 0 0;
+        font-family: 'Lato', sans-serif;
+        font-size: 23px;
+        text-transform: uppercase;
+    }
+
+    .home-page .home-intro .banner-image > img {
+        padding: 6rem 0; 
+        width: 50%;
+        margin: 0 4rem;
+    }
+
+    .home-page .home-intro .intro-text {
+        font-family: 'EB Garamond', serif;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 500;
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
+    .fa {
+        padding: 5px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        text-decoration: none;
+        margin: 2px 3px;
+        border-radius: 50%;
+    }
+
+}
